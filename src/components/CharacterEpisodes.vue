@@ -2,13 +2,13 @@
   <div class="container">
     <!-- <div>{{ char_id }}</div> -->
     <!-- <div>{{ episodes }}</div> -->
-    <table class="min-w-max table-auto">
+   <table class="w-6/6 table-auto">
       <thead class="justify-between">
         <tr class="bg-gray-800">
-          <th class="px-15 py-2">
+          <th class="px-16 py-2">
             <span class="text-gray-300">Episode</span>
           </th>
-          <th class="px-16 py-2">
+          <th class="px-15 py-2">
             <span class="text-gray-300">Season</span>
           </th>
           <th class="px-16 py-2">
@@ -17,7 +17,7 @@
           <th class="px-16 py-2">
             <span class="text-gray-300">Series</span>
           </th>
-          <th class="px-16 py-2">
+          <th class="px-24 py-2">
             <span class="text-gray-300">Air-Date</span>
           </th>
         </tr>

@@ -1,10 +1,10 @@
 <template>
-  <div class="container p-5 mx-auto my-5">
+  <div class="container w-full h-full p-5 mx-auto my-5">
     <div class="md:flex no-wrap md:-mx-2">
       <!-- Left Side -->
-      <div class="w-full md:w-3/12 md:mx-2">
+      <div class="md:w-3/12 md:mx-2">
         <!-- Profile Card -->
-        <div class="p-3 bg-white border-t-4 border-green-400">
+        <div class="p-3 bg-white border-t-4">
           <div class="overflow-hidden image">
             <img class="w-full h-auto mx-auto" :src="character.img" alt="" />
           </div>
@@ -19,10 +19,10 @@
         <div class="my-4"></div>
       </div>
       <!-- Right Side -->
-      <div class="h-64 mx-5 md:w-9/12">
+      <div class="mx-5 md:w-9/12">
         <!-- Profile tab -->
         <!-- About Section -->
-        <div class="p-3 bg-white rounded-sm shadow-sm border-2 border-green-500">
+        <div class="p-3 bg-white border-2">
           <div
             class="flex items-center space-x-2 font-semibold leading-8 text-gray-900"
           >
@@ -86,17 +86,13 @@
         <div class="my-4"></div>
 
         <!-- Episode and quotes -->
-        <div class="rounded-sm shadow-sm">
-          <div class="grid grid-cols-2">
-              <div class="flex items-center font-semibold leading-8 text-gray-900">
-                <CharacterEpisodes :char_id="char_id" />
-              </div>
-          </div>
-          <div class="rounded-sm shadow-sm">
+        <div>
           <div class="flex items-center space-x-2 font-semibold leading-8 text-gray-900">
+                <CharacterEpisodes :char_id="char_id" />
+          </div>
+          <div class="flex items-center space-x-2 mt-5 font-semibold leading-8 text-gray-900">
             <CharacterQuotes :char_id="char_id" />
           </div>
-        </div>
         </div><!-- End of Episode and quotes grid -->
         <!-- End of profile tab -->
       </div>
@@ -105,6 +101,7 @@
     </div>
   </div>
 </template>
+
 
 <script>
 
