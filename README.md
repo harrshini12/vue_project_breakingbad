@@ -1,4 +1,4 @@
-### BreakingBad Characters_Projects - (https://breakingbadcharacters.herokuapp.com/)
+### BreakingBad Characters_Projects 
 
 # Project plan
 The goal for this project is to build an about page of breaking bad characters from the breaking bad API using Vue.js. 
