@@ -25,23 +25,23 @@ This project is a Typescript backend API for managing content. It provides endpo
 
 1.  Install dependencies:
 
-    cd content-api
-    npm install
+    * cd content-api
+    * npm install
 
 3.  Configure environment variables:
 
-    In .env file update the values with your MongoDB connection URL and other configuration details.
+    * In .env file update the values with your MongoDB connection URL and other configuration details.
 
 4.  Start the server:
 
-    npm start
+    * npm start
 The server should now be running on http://localhost:3000.
 
 # API Routes
 
 ### Create content
-Endpoint: POST /content
-This endpoint creates new content.
+* Endpoint: POST /content
+* This endpoint creates new content.
 
 ### Request
 Headers:
@@ -67,12 +67,12 @@ Body:
 * author (optional): Author of the media
 
 ### Response
-Status: 201 Created
-Body: Created content object
+* Status: 201 Created
+* Body: Created content object
 
 ### Delete content by ID
-Endpoint: DELETE /content/:id
-This endpoint deletes content by its ID.
+* Endpoint: DELETE /content/:id
+* This endpoint deletes content by its ID.
 
 ### Request
 Headers:
@@ -82,11 +82,11 @@ Parameters:
 * id: ID of the content to be deleted (required)
 
 ### Response
-Status: 204 No Content
+* Status: 204 No Content
 
 ### Get content by ID
-Endpoint: GET /content/:id
-This endpoint retrieves content by its ID.
+* Endpoint: GET /content/:id
+* This endpoint retrieves content by its ID.
 
 ### Request
 Headers:
@@ -96,11 +96,11 @@ Parameters:
 * id: ID of the content to be retrieved (required)
 
 ### Response
-Status: 200 OK
-Body: Retrieved content object
+* Status: 200 OK
+* Body: Retrieved content object
 
 ### Testing
 To run the tests, execute the following command:
-npm test
+    * npm test
 
 The tests use the supertest library for making HTTP requests to the API endpoints. The tests cover the create and delete operations and check the response status codes and returned data.
