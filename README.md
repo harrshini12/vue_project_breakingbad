@@ -100,7 +100,7 @@ Parameters:
 * Body: Retrieved content object
 
 ### Testing
-To run the tests, execute the following command:
+* To run the tests, execute the following command:
     * npm test
 
 The tests use the supertest library for making HTTP requests to the API endpoints. The tests cover the create and delete operations and check the response status codes and returned data.
